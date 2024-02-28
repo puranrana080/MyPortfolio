@@ -14,6 +14,11 @@
     max-width: 100%;
     height: auto;
 }
+.skillimg{
+    max-width: 100%;
+    min-width: 50%;
+    height: auto;
+}
 .h2{
     font-family: Courier, monospace;
     display: flex;
@@ -72,4 +77,22 @@ h2{
   }
   .footer{
     background-color: #03C0CC;
+  }
+.contact-section input,
+  .contact-section textarea{
+    width: 50%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .contact-section button {
+    padding: 10px;
+    background-color: #4CAF50;
+    
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contact-section button:hover {
+    background-color: #45a049;
   }
